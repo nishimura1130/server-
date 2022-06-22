@@ -4,12 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "nodemon": "server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "http": "0.0.1-security"
-  }
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishimura1130/server-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nishimura1130/server-/issues"
+  },
+  "homepage": "https://github.com/nishimura1130/server-#readme"
 }
